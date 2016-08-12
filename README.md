@@ -22,13 +22,13 @@ User-generated from MAGI
  * csv file in the format: GeneName,Mutation_Score,Number_of_LoF,Number_of_Missense
 
 ## Running network_plotter
-1. First run the modules_to_edgelist.py script as follows:
+* First run the modules_to_edgelist.py script as follows:
 ```
 python modules_to_edgelist.py path/to/module_file.txt path/to/coexpression_data.txt path/to/ppi_data.txt
 
 ```
 
-2. Second run the edgelist_to_graph.py script as follows:
+* Second run the edgelist_to_graph.py script as follows:
 ```
 python path/to/edgelist_to_graph.py path/to/module_file path/to/edgelist_all path/to/edgelist_within path/to/gene_data path/to/layout_input display_all_edges:<'True'or'False'or'name_of_module'> choose_mods:<'All' or [list,of,mods,to,be,graphed]>
 ```
