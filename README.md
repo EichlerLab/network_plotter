@@ -17,9 +17,8 @@ Download from https://eichlerlab.gs.washington.edu/MAGI/
  * tab-separated text file with gene1 in the first column, gene2 in the second column, and pearson_correlation_coefficient_r^6 in the third column (see adj1.csv.Tab.BinaryFormat for example). Note: this script will select those with significant coexpression 
 
 User-generated from MAGI
-* module_file= csv in the format: gene,module_name
-* gene data file
- * csv file in the format: GeneName,Mutation_Score,Number_of_LoF,Number_of_Missense
+* module_file = csv in the format: gene,module_name
+* gene data file = csv file in the format: GeneName,Mutation_Score,Number_of_LoF,Number_of_Missense
 
 ## Running network_plotter
 * First run the modules_to_edgelist.py script as follows:
