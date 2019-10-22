@@ -41,3 +41,6 @@ python path/to/edgelist_to_graph.py path/to/module_file path/to/edgelist_all pat
 * display_all_edges: True/False/ModuleName ('True' displays all the edges that connect modules to one another. 'False' displays only the edges within modules. typing the name of a module displays all the edges that connect that module to other modules)
 * choose_mods: comma separated list of modules to be included on the graph. ex: mod1,mod2,mod4. To include all modules in the module_file type 'All'.
 
+### Additional notes about publication quality figures (Added 10/22/2019 by Tychele N. Turner Ph.D.)
+For publications it is nice to create a pdf of the network and to have more colors. We have added an additional script (edgelist_to_graph_publication.py) to do this in place of the edgelist_to_graph.py script. There is also a heatmap (heatmap_for_publication_figures.pdf) that can be added to legends for this new script. The more red is more LoF and the more blue is more Missense. 
+
